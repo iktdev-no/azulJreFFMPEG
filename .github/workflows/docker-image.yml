@@ -32,6 +32,6 @@ jobs:
         context: ./
         push: true
         tags: |
-          bskjon/debian-azulJre17-ffmpeg:latest
-          bskjon/debian-azulJre17-ffmpeg:${{ github.sha }}
-          bskjon/debian-azulJre17-ffmpeg:${{ steps.docker-tag.outputs.tag }}
+          bskjon/debian-azuljava17-ffmpeg:latest
+          bskjon/debian-azuljava17-ffmpeg:${{ github.sha }}
+          bskjon/debian-azuljava17-ffmpeg:${{ steps.docker-tag.outputs.tag }}
